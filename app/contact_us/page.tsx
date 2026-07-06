@@ -1,28 +1,28 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Variants } from "framer-motion";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";
 import { useThemeContext } from "@/context/ThemeContext";
 
 // Animation Variants
-const staggerContainer = {
+const staggerContainer: Variants = {
   hidden: { opacity: 0 },
   show: { opacity: 1, transition: { staggerChildren: 0.12 } }
 };
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 30 },
   show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 60, damping: 15 } }
 };
 
-const scaleIn = {
+const scaleIn: Variants = {
   hidden: { opacity: 0, scale: 0.9 },
   show: { opacity: 1, scale: 1, transition: { type: "spring", stiffness: 80, damping: 15 } }
 };
 
-const receiptVariant = {
+const receiptVariant: Variants = {
   hidden: { opacity: 0, rotateX: 30, y: 40, scale: 0.9 },
   show: { opacity: 1, rotateX: 0, y: 0, scale: 1, transition: { type: "spring", stiffness: 60, damping: 14 } }
 };
