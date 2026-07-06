@@ -600,7 +600,7 @@ export default function WhoWeAre() {
             <div className="ux-card mobile-scroll-target">
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                 <span className="tagline-mono">The Mandate</span>
-                <span className="card-number-callout">// 01<Span>
+                <span className="card-number-callout">// 01</span>
                 </div>
                   <h3 style={{ fontSize: '1.8rem', color: 'var(--text-pure)', fontWeight: 700, letterSpacing: '-0.02em', margin: '0' }}>Mission Statement</h3>
                   <p style={{ color: 'var(--text-body)', fontSize: '1.05rem', lineHeight: 1.7, margin: '0' }}>To hand-loom scalable, elite-tier artistic textiles and custom rugs that transform high-end spatial venues into environments of monumental balance, heritage status, and prestige comfort.</p>
@@ -609,7 +609,7 @@ export default function WhoWeAre() {
               <div className="ux-card mobile-scroll-target">
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                   <span className="tagline-mono">The Horizon</span>
-                  <span className="card-number-callout">// 02<Span>
+                  <span className="card-number-callout">// 02</span>
                   </div>
                     <h3 style={{ fontSize: '1.8rem', color: 'var(--text-pure)', fontWeight: 700, letterSpacing: '-0.02em', margin: '0' }}>Vision Statement</h3>
                     <p style={{ color: 'var(--text-body)', fontSize: '1.05rem', lineHeight: 1.7, margin: '0' }}>To set the definitive architectural standard for global luxury textile sourcing, where absolute tracking transparency, thread purity calibration, and fine knot-weaving fidelity converge flawlessly.</p>
